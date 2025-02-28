@@ -1,0 +1,14 @@
+{
+   "id":"arsh",
+      "title":"Le Trône (Al-'Arsh)",
+      "description":"Le Trône d’Allah est la plus grande création, au-dessus de tous les cieux. Le Prophète ﷺ a dit que les sept cieux en comparaison avec le Kursi (repose-pied) sont comme un anneau jeté dans un désert, et le Kursi en comparaison avec le Trône est comme cet anneau dans ce désert.",
+      "imageUrl":"images/mosquee1.jpeg",
+      "children":[
+        {
+          "id":"throne-bearers",
+          "title":"Les Porteurs du Trône",
+          "description":"Anges puissants chargés de porter le Trône d’Allah.",
+          "imageUrl":"images/"
+        }
+      ]
+    }

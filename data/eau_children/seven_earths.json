@@ -1,0 +1,72 @@
+{
+  "id": "seven-earths",
+  "title": "Les Sept Terres (Al-Ard)",
+  "description": "Selon certaines traditions islamiques et interprétations coraniques, la Terre est composée de sept couches ou terres superposées, chacune ayant une fonction spécifique. Le Coran mentionne les 'sept terres' comme un parallèle aux sept cieux, reflétant l’ordre et la perfection de la création d’Allah. Les exégètes comme Ibn Abbas ont lié cela à des couches physiques ou métaphysiques de la Terre.",
+  "imageUrl": "images/mosuee.jpeg",
+  "quranVerses": [
+    {
+      "ar": "اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ ۖ تَنَزَّلُ الْأَمْرُ بَيْنَهُنَّ",
+      "fr": "Allah est Celui qui a créé sept cieux et autant de terres semblables. Le commandement descend entre elles.",
+      "surah": "At-Talaq",
+      "ayah": "12"
+    },
+    {
+      "ar": "هُوَ الَّذِي خَلَقَ لَكُمْ مَا فِي الْأَرْضِ جَمِيعًا ثُمَّ اسْتَوَىٰ إِلَى السَّمَاءِ فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ ۚ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "fr": "C’est Lui qui a créé pour vous tout ce qui est sur la terre, puis Il S’est tourné vers le ciel et en a fait sept cieux. Et Il est Omniscient.",
+      "surah": "Al-Baqarah",
+      "ayah": "29"
+    }
+  ],
+  "hadiths": [
+    {
+      "ar": "عَنْ سَالِمٍ عَنْ أَبِيهِ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: مَنْ أَخَذَ مِنَ الْأَرْضِ شَيْئًا بِغَيْرِ حَقِّهِ خُسِفَ بِهِ يَوْمَ الْقِيَامَةِ إِلَى سَبْعِ أَرَضِينَ",
+      "fr": "D’après Salim, d’après son père, le Messager d’Allah (ﷺ) a dit : « Celui qui prend quelque chose de la terre sans droit sera englouti, le Jour de la Résurrection, jusqu’aux sept terres. »",
+      "narrator": "Sahih Muslim"
+    }
+  ],
+  "children": [
+    {
+      "id": "first-earth",
+      "title": "Première Terre - Ad-Dunya",
+      "description": "La couche la plus proche de la surface, où vivent les humains et les créatures. Elle est le théâtre de la vie terrestre et des épreuves divines.",
+      "imageUrl": "images/terre_a.gif",
+      "videoUrl": "videos/nebuleuse.mp4"
+    },
+    {
+      "id": "second-earth",
+      "title": "Deuxième Terre - Al-Ard al-Thaniya",
+      "description": "Une couche souterraine où résident certains djinns et créatures mystérieuses, selon certaines interprétations.",
+      "imageUrl": "images/"
+    },
+    {
+      "id": "third-earth",
+      "title": "Troisième Terre - Al-Ard al-Thalitha",
+      "description": "Une couche de minéraux et de ressources naturelles, reflet de la générosité d’Allah envers Ses créatures.",
+      "imageUrl": "images/"
+    },
+    {
+      "id": "fourth-earth",
+      "title": "Quatrième Terre - Al-Ard al-Rabi’a",
+      "description": "Une couche de feu et de magma, source de chaleur et d’énergie, symbolisant la puissance divine.",
+      "imageUrl": "images/"
+    },
+    {
+      "id": "fifth-earth",
+      "title": "Cinquième Terre - Al-Ard al-Khamisa",
+      "description": "Une couche de roches solides et de métaux précieux, témoignant de la richesse cachée par Allah.",
+      "imageUrl": "images/"
+    },
+    {
+      "id": "sixth-earth",
+      "title": "Sixième Terre - Al-Ard al-Sadisa",
+      "description": "Une couche de terre pure, parfois associée à des réalités spirituelles ou des créatures inconnues.",
+      "imageUrl": "images/"
+    },
+    {
+      "id": "seventh-earth",
+      "title": "Septième Terre - Al-Ard al-Sabi’a",
+      "description": "La couche la plus profonde, où se trouvent les fondations de la Terre, marquant la limite de la création physique.",
+      "imageUrl": "images/"
+    }
+  ]
+}

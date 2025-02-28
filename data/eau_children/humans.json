@@ -1,0 +1,893 @@
+{
+   "id": "humans",
+   "title": "Les Humains (Al-Ins)",
+   "description": "Créatures créées à partir d'argile, dotées de libre arbitre.",
+   "imageUrl": "images/mecque2.jpeg",
+   "children": [
+    {
+     "id": "adam",
+     "title": "Adam (عليه السلام)",
+     "description": "Premier Homme et Prophète, créé par Allah à partir de la terre.",
+     "imageUrl": "images/",
+     "children": [
+      {
+       "id": "paradise-stay",
+       "title": "Séjour au Paradis",
+       "description": "Adam et Hawwa vivaient au Paradis avant leur descente sur Terre.",
+       "imageUrl": "images/"
+      },
+      {
+       "id": "paradise-expulsion",
+       "title": "Expulsion du Paradis",
+       "description": "Ils ont été expulsés du Paradis après avoir désobéi à Allah.",
+       "imageUrl": "images/"
+      }
+     ]
+    },
+    {
+     "id": "hawa",
+     "title": "Hawa (Eve)",
+     "description": "Première Femme, créée à partir d'Adam.",
+     "imageUrl": "images/"
+    },
+    {
+     "id": "prophets",
+     "title": "Les Prophètes",
+     "description": "Messagers choisis par Allah pour guider l’humanité. Les prophètes sont des modèles de piété et de dévotion, envoyés pour transmettre les messages divins. Le Coran mentionne 25 prophètes par leur nom, bien que leur nombre total soit plus grand selon les hadiths, atteignant des milliers. Ils furent tous des exemples de patience, de foi et de soumission à Allah.",
+     "imageUrl": "images/mecque3.jpeg",
+     "quranVerses": [
+      {
+       "ar": "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِنْ قَبْلِكَ مِنْهُمْ مَنْ قَصَصْنَا عَلَيْكَ وَمِنْهُمْ مَنْ لَمْ نَقْصُصْ عَلَيْكَ",
+       "fr": "Et Nous avons certes envoyé des messagers avant toi ; parmi eux, il y en a dont Nous t’avons raconté l’histoire, et d’autres dont Nous ne t’avons pas raconté l’histoire.",
+       "surah": "Ghafir",
+       "ayah": "78"
+      },
+      {
+       "ar": "رُسُلًا مُبَشِّرِينَ وَمُنْذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ",
+       "fr": "Des messagers annonciateurs de bonnes nouvelles et avertisseurs, afin que les gens n’aient aucun argument contre Allah après les messagers.",
+       "surah": "An-Nisa",
+       "ayah": "165"
+      }
+     ],
+     "hadiths": [
+      {
+       "ar": "عَنْ أَبِي أُمَامَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: أَنَا سَيِّدُ وَلَدِ آدَمَ يَوْمَ الْقِيَامَةِ وَأَوَّلُ مَنْ تَنْشَقُّ عَنْهُ الْأَرْضُ",
+       "fr": "D’après Abu Umama (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Je suis le maître des fils d’Adam le Jour de la Résurrection, et le premier dont la terre s’ouvrira. »",
+       "narrator": "Sahih Muslim"
+      }
+     ],
+     "children": [
+      {
+       "id": "prophet-miracles",
+       "title": "Miracles des Prophètes",
+       "description": "Les prophètes ont accompli des miracles extraordinaires par la permission d’Allah pour prouver leur mission divine et appeler leurs peuples à la foi.",
+       "imageUrl": "images/miracles.jpeg",
+       "children": [
+        {
+         "id": "muhammad-split-moon",
+         "title": "Scission de la Lune",
+         "description": "Le Prophète Muhammad ﷺ a scindé la lune en deux morceaux devant ses compagnons, un miracle attesté par le Coran et les témoins oculaires.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "اقْتَرَبَتِ السَّاعَةُ وَانْشَقَّ الْقَمَرُ",
+           "fr": "L’Heure s’est approchée, et la lune s’est fendue.",
+           "surah": "Al-Qamar",
+           "ayah": "1"
+          }
+         ],
+         "hadiths": [
+          {
+           "ar": "عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: انْشَقَّ الْقَمَرُ عَلَى عَهْدِ رَسُولِ اللَّهِ ﷺ فَقَالَتْ قُرَيْشٌ: هَذَا سِحْرٌ",
+           "fr": "D’après Abdullah ibn Mas’ud (qu’Allah l’agrée), il dit : « La lune s’est fendue à l’époque du Messager d’Allah (ﷺ), et Quraysh a dit : Ceci est de la sorcellerie. »",
+           "narrator": "Sahih Al-Bukhari"
+          }
+         ]
+        },
+        {
+         "id": "musa-parting-sea",
+         "title": "Division de la Mer",
+         "description": "Musa (Moïse) a divisé la mer Rouge par la permission d’Allah pour sauver les Israélites de Pharaon, un signe manifeste de la puissance divine.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِبْ بِعَصَاكَ الْبَحْرَ ۖ فَانْفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ",
+           "fr": "Nous révélâmes à Musa : « Frappe la mer de ton bâton. » Elle se fendit, et chaque partie fut comme une immense montagne.",
+           "surah": "Ash-Shu’ara",
+           "ayah": "63"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "adam",
+       "title": "Adam (عليه السلام)",
+       "description": "Premier homme et prophète, créé par Allah à partir de la terre. Il fut le père de l’humanité, enseigné les noms de toutes choses, et vécut au Paradis avant sa descente sur Terre.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلَائِكَةِ",
+         "fr": "Et Il enseigna à Adam tous les noms, puis Il les présenta aux anges.",
+         "surah": "Al-Baqarah",
+         "ayah": "31"
+        },
+        {
+         "ar": "قَالَ يَا آدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ",
+         "fr": "Il dit : « Ô Adam, informe-les de leurs noms. » Lorsqu’il les informa de leurs noms, Il dit : « Ne vous ai-Je pas dit que Je connais l’invisible des cieux et de la terre ? »",
+         "surah": "Al-Baqarah",
+         "ayah": "33"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: خُلِقَ آدَمُ عَلَى صُورَتِهِ طُولُهُ سِتُّونَ ذِرَاعًا",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Adam fut créé à Son image, sa taille était de soixante coudées. »",
+         "narrator": "Sahih Al-Bukhari"
+        }
+       ],
+       "children": [
+        {
+         "id": "paradise-stay",
+         "title": "Séjour au Paradis",
+         "description": "Adam et Hawwa vivaient au Paradis avant leur descente sur Terre, jouissant des bienfaits d’Allah jusqu’à leur désobéissance.",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "paradise-expulsion",
+         "title": "Expulsion du Paradis",
+         "description": "Ils ont été expulsés du Paradis après avoir mangé de l’arbre interdit, sur suggestion d’Iblis, puis se sont repentis et ont été pardonnés.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "فَقُلْنَا يَا آدَمُ إِنَّ هَٰذَا عَدُوٌّ لَكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ الْجَنَّةِ فَتَشْقَىٰ",
+           "fr": "Nous dîmes : « Ô Adam, celui-ci (Iblis) est un ennemi pour toi et ton épouse ; qu’il ne vous fasse pas sortir du Paradis, sinon tu seras malheureux. »",
+           "surah": "Ta-Ha",
+           "ayah": "117"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hawa",
+       "title": "Hawa (Eve)",
+       "description": "Première femme, créée par Allah à partir d’Adam pour être son épouse et compagne au Paradis. Elle partagea avec Adam l’épreuve de la désobéissance et la descente sur Terre.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا",
+         "fr": "Et Nous dîmes : « Ô Adam, habite le Paradis, toi et ton épouse, et mangez-en largement où vous voulez. »",
+         "surah": "Al-Baqarah",
+         "ayah": "35"
+        }
+       ]
+      },
+      {
+       "id": "seth",
+       "title": "Seth (Shith)",
+       "description": "Troisième fils d’Adam et Hawwa, considéré comme un prophète dans certaines traditions islamiques. Il succéda à Adam pour guider l’humanité après la mort d’Abel (Habil).",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ ۚ كُلًّا هَدَيْنَا ۚ وَنُوحًا هَدَيْنَا مِنْ قَبْلُ ۖ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ",
+         "fr": "Et Nous lui donnâmes Ishaq et Yaqub, tous deux Nous les guidâmes ; et Nuh, Nous l’avions guidé auparavant ; et parmi sa descendance, Dawud et Sulayman. (Note : Seth n’est pas nommé explicitement, mais inclus dans la lignée prophétique).",
+         "surah": "Al-An’am",
+         "ayah": "84"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: لَمَّا قُتِلَ هَابِيلُ وُهِبَ لِآدَمَ شِيثٌ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Lorsque Habil fut tué, Seth fut donné à Adam. »",
+         "narrator": "Rapporté dans certaines interprétations historiques, non dans les six livres principaux"
+        }
+       ]
+      },
+      {
+       "id": "idris",
+       "title": "Idris (Enoch)",
+       "description": "Prophète connu pour sa sagesse et son ascension au ciel. Il fut élevé par Allah à un haut rang et est associé aux connaissances et à la piété.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ ۚ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا ۝ وَرَفَعْنَاهُ مَكَانًا عَلِيًّا",
+         "fr": "Et mentionne dans le Livre Idris. Il était un véridique, un prophète, et Nous l’avons élevé à un haut rang.",
+         "surah": "Maryam",
+         "ayah": "56-57"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي ذَرٍّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: إِدْرِيسُ كَانَ أَوَّلَ مَنْ خَطَّ بِالْقَلَمِ",
+         "fr": "D’après Abu Dharr (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Idris fut le premier à écrire avec la plume. »",
+         "narrator": "Rapporté par Ibn Hajar dans Fath al-Bari (non dans les six livres principaux)"
+        }
+       ]
+      },
+      {
+       "id": "nuh",
+       "title": "Nuh (Noé)",
+       "description": "Prophète envoyé pour avertir son peuple du Déluge après 950 ans de prédication. Il construisit l’arche sur ordre d’Allah pour sauver les croyants et les animaux.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَاصْنَعِ الْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَاطِبْنِي فِي الَّذِينَ ظَلَمُوا ۚ إِنَّهُمْ مُغْرَقُونَ",
+         "fr": "Et construis l’arche sous Nos yeux et selon Notre révélation, et ne M’interpelle pas au sujet des injustes, car ils seront noyés.",
+         "surah": "Hud",
+         "ayah": "37"
+        },
+        {
+         "ar": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا عَبْدَنَا وَقَالُوا مَجْنُونٌ وَازْدُجِرَ",
+         "fr": "Avant eux, le peuple de Nuh démentit Notre serviteur et dirent : « C’est un possédé ! » et ils le repoussèrent.",
+         "surah": "Al-Qamar",
+         "ayah": "9"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: لَمَّا أُمِرَ نُوحٌ بِصَنْعَةِ السَّفِينَةِ غَرَسَ شَجَرَةً فَقَطَعَهَا بَعْدَ مِائَةِ سَنَةٍ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Lorsque Nuh fut ordonné de construire l’arche, il planta un arbre et le coupa après cent ans. »",
+         "narrator": "Sunan At-Tirmidhi"
+        }
+       ],
+       "children": [
+        {
+         "id": "ark-construction",
+         "title": "Construction de l’arche",
+         "description": "Nuh a construit une arche sous la guidance d’Allah pour sauver les croyants et un couple de chaque espèce animale du Déluge.",
+         "imageUrl": "images/"
+        }
+       ]
+      },
+      {
+       "id": "ibrahim",
+       "title": "Ibrahim (Abraham)",
+       "description": "Prophète connu pour sa soumission totale à Allah. Il est le père des monothéismes, reconstruisit la Kaaba avec son fils Ismail, et fut testé par Allah avec le sacrifice de son fils.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ",
+         "fr": "Et lorsque Ibrahim élevait les fondations de la Maison avec Ismail.",
+         "surah": "Al-Baqarah",
+         "ayah": "127"
+        },
+        {
+         "ar": "قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِنْ ذُرِّيَّتِي ۖ قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ",
+         "fr": "Il dit : « Je vais faire de toi un guide pour les gens. » Il dit : « Et de ma descendance ? » Il dit : « Mon pacte n’atteint pas les injustes. »",
+         "surah": "Al-Baqarah",
+         "ayah": "124"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: أَنَا دَعْوَةُ أَبِي إِبْرَاهِيمَ",
+         "fr": "D’après Ibn Abbas (qu’Allah les agrée), le Messager d’Allah (ﷺ) a dit : « Je suis l’invocation de mon père Ibrahim. »",
+         "narrator": "Sahih Al-Bukhari"
+        }
+       ],
+       "children": [
+        {
+         "id": "fire-trial",
+         "title": "Épreuve du Feu",
+         "description": "Ibrahim fut jeté dans le feu par son peuple pour avoir détruit leurs idoles, mais Allah le sauva en rendant le feu froid et inoffensif.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "قَالُوا حَرِّقُوهُ وَانْصُرُوا آلِهَتَكُمْ إِنْ كُنْتُمْ فَاعِلِينَ ۝ قُلْنَا يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ",
+           "fr": "Ils dirent : « Brûlez-le et secourez vos divinités, si vous voulez agir ! » Nous dîmes : « Ô feu, sois une fraîcheur et une paix pour Ibrahim ! »",
+           "surah": "Al-Anbiya",
+           "ayah": "68-69"
+          }
+         ]
+        },
+        {
+         "id": "son-sacrifice",
+         "title": "Sacrifice de son fils",
+         "description": "Ibrahim fut prêt à sacrifier son fils Ismail sur ordre d’Allah, mais Allah le remplaça par un bélier, un acte commémoré lors de l’Aïd al-Adha.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "فَلَمَّا أَسْلَمَا وَتَلَّهُ لِلْجَبِينِ ۝ وَنَادَيْنَاهُ أَنْ يَا إِبْرَاهِيمُ ۝ قَدْ صَدَّقْتَ الرُّؤْيَا ۚ إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
+           "fr": "Puis, lorsqu’ils se soumirent tous deux et qu’il le coucha sur le front, Nous l’appelâmes : « Ô Ibrahim ! Tu as réalisé la vision. » Ainsi récompensons-Nous les bienfaisants.",
+           "surah": "As-Saffat",
+           "ayah": "103-105"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ismail",
+       "title": "Ismail (Ismaël)",
+       "description": "Fils d’Ibrahim, considéré comme l’ancêtre des Arabes. Il aida son père à reconstruire la Kaaba et fut le sujet de l’épreuve du sacrifice.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ",
+         "fr": "Et lorsque Ibrahim élevait les fondations de la Maison avec Ismail.",
+         "surah": "Al-Baqarah",
+         "ayah": "127"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: إِسْمَاعِيلُ أَوَّلُ مَنْ تَكَلَّمَ بِالْعَرَبِيَّةِ",
+         "fr": "D’après Ibn Umar (qu’Allah les agrée), le Messager d’Allah (ﷺ) a dit : « Ismail fut le premier à parler arabe. »",
+         "narrator": "Rapporté par Al-Tabarani"
+        }
+       ]
+      },
+      {
+       "id": "ishaq",
+       "title": "Ishaq (Isaac)",
+       "description": "Fils d’Ibrahim et Sara, ancêtre des Israélites. Il fut une bonne nouvelle annoncée à Ibrahim dans sa vieillesse.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَبَشَّرْنَاهُ بِإِسْحَاقَ نَبِيًّا مِنَ الصَّالِحِينَ",
+         "fr": "Et Nous lui annonçâmes la bonne nouvelle d’Ishaq, un prophète parmi les vertueux.",
+         "surah": "As-Saffat",
+         "ayah": "112"
+        }
+       ]
+      },
+      {
+       "id": "yaqub",
+       "title": "Yaqub (Jacob)",
+       "description": "Prophète et fils d’Ishaq, père des douze tribus d’Israël. Il fut éprouvé par la perte temporaire de son fils Yusuf, mais resta patient.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "أَمْ كُنْتُمْ شُهَدَاءَ إِذْ حَضَرَ يَعْقُوبَ الْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنْ بَعْدِي ۖ قَالُوا نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ آبَائِكَ",
+         "fr": "Ou étiez-vous témoins lorsque la mort se présenta à Yaqub, quand il dit à ses fils : « Qu’adorerez-vous après moi ? » Ils dirent : « Nous adorerons ton Dieu et le Dieu de tes ancêtres. »",
+         "surah": "Al-Baqarah",
+         "ayah": "133"
+        }
+       ]
+      },
+      {
+       "id": "yusuf",
+       "title": "Yusuf (Joseph)",
+       "description": "Fils de Yaqub, connu pour sa beauté, sa patience et sa sagesse. Il fut vendu comme esclave, emprisonné, puis devint un dirigeant en Égypte après avoir interprété les rêves du roi.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَلَمَّا دَخَلُوا عَلَىٰ يُوسُفَ آوَىٰ إِلَيْهِ أَبَوَيْهِ وَقَالَ ادْخُلُوا مِصْرَ إِنْ شَاءَ اللَّهُ آمِنِينَ",
+         "fr": "Et lorsqu’ils entrèrent chez Yusuf, il accueillit ses parents auprès de lui et dit : « Entrez en Égypte, en sécurité, si Allah le veut. »",
+         "surah": "Yusuf",
+         "ayah": "99"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: كَانَ يُوسُفُ أَجْمَلَ النَّاسِ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Yusuf était le plus beau des hommes. »",
+         "narrator": "Rapporté par Ibn Majah"
+        }
+       ],
+       "children": [
+        {
+         "id": "dream-interpretation",
+         "title": "Interprétation des rêves",
+         "description": "Yusuf interpréta les rêves du roi d’Égypte, prédisant sept années d’abondance suivies de sept années de famine, sauvant ainsi le pays.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "وَقَالَ الْمَلِكُ إِنِّي أَرَىٰ سَبْعَ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ",
+           "fr": "Et le roi dit : « Je vois sept vaches grasses que sept maigres dévorent. »",
+           "surah": "Yusuf",
+           "ayah": "43"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "musa",
+       "title": "Musa (Moïse)",
+       "description": "Prophète qui reçut la Torah et libéra les Israélites de Pharaon. Il fut gratifié de miracles comme la division de la mer et parla directement à Allah sur le Mont Sinaï.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُبِينٌ",
+         "fr": "Il jeta son bâton, et voilà qu’il devint un serpent manifeste.",
+         "surah": "Ash-Shu’ara",
+         "ayah": "32"
+        },
+        {
+         "ar": "وَكَلَّمَ اللَّهُ مُوسَىٰ تَكْلِيمًا",
+         "fr": "Et Allah parla directement à Musa.",
+         "surah": "An-Nisa",
+         "ayah": "164"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: لَمَّا رَأَى مُوسَى النَّارَ قَالَ لِأَهْلِهِ: امْكُثُوا إِنِّي آنَسْتُ نَارًا",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Lorsque Musa vit le feu, il dit à sa famille : Restez ici, j’ai aperçu un feu. »",
+         "narrator": "Sahih Muslim"
+        }
+       ],
+       "children": [
+        {
+         "id": "sea-miracle",
+         "title": "Miracle de la mer",
+         "description": "Musa divisa la mer pour sauver son peuple de Pharaon, un miracle spectaculaire de la puissance d’Allah.",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "staff-miracle",
+         "title": "Le bâton qui se transforme en serpent",
+         "description": "Le bâton de Musa se transforma en serpent pour défier les sorciers de Pharaon, prouvant la vérité divine.",
+         "imageUrl": "images/"
+        }
+       ]
+      },
+      {
+       "id": "harun",
+       "title": "Harun (Aaron)",
+       "description": "Frère de Musa et prophète, il fut son soutien et porte-parole auprès de Pharaon. Il reçut aussi la révélation divine avec Musa.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَآهَا تَهْتَزُّ كَأَنَّهَا جَانٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَا مُوسَىٰ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ الْآمِنِينَ",
+         "fr": "Et jette ton bâton. Lorsqu’il le vit frétiller comme un serpent, il tourna le dos et ne revint pas en arrière. « Ô Musa, avance et ne crains rien, tu fais partie des protégés. » (Harun était avec lui dans cette mission).",
+         "surah": "Al-Qasas",
+         "ayah": "31"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: كَانَ هَارُونُ أَخَا مُوسَى وَنَبِيًّا مَعَهُ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Harun était le frère de Musa et un prophète avec lui. »",
+         "narrator": "Rapporté dans les exégèses"
+        }
+       ]
+      },
+      {
+       "id": "dawud",
+       "title": "Dawud (David)",
+       "description": "Prophète et roi, auteur des Psaumes (Zabur). Il reçut le don de faire plier le fer et fut connu pour sa voix mélodieuse qui glorifiait Allah.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا فَضْلًا ۖ يَا جِبَالُ أَوِّبِي مَعَهُ وَالطَّيْرَ ۖ وَأَلَنَّا لَهُ الْحَدِيدَ",
+         "fr": "Et Nous avons certes donné à Dawud un privilège de Notre part : « Ô montagnes, chantez avec lui, ainsi que les oiseaux ! » Et Nous avons rendu le fer malléable pour lui.",
+         "surah": "Saba",
+         "ayah": "10"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: كَانَ دَاوُودُ أَحْسَنَ النَّاسِ صَوْتًا بِالتَّهْلِيلِ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Dawud avait la plus belle voix parmi les hommes pour glorifier Allah. »",
+         "narrator": "Sahih Al-Bukhari"
+        }
+       ]
+      },
+      {
+       "id": "sulayman",
+       "title": "Sulayman (Salomon)",
+       "description": "Fils de Dawud, prophète et roi connu pour sa sagesse et son pouvoir sur les djinns, les vents et les animaux. Il hérita du royaume de son père et reçut des dons uniques d’Allah.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَلِسُلَيْمَانَ الرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُ عَيْنَ الْقِطْرِ",
+         "fr": "Et à Sulayman, le vent : son aller était d’un mois et son retour d’un mois ; et Nous fîmes couler pour lui une source de cuivre.",
+         "surah": "Saba",
+         "ayah": "12"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: كَانَ سُلَيْمَانُ يَقُولُ: اللَّهُمَّ اغْفِرْ لِي وَهَبْ لِي مُلْكًا لَا يَنْبَغِي لِأَحَدٍ مِنْ بَعْدِي",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Sulayman disait : Ô Allah, pardonne-moi et donne-moi un royaume qui ne conviendra à personne après moi. »",
+         "narrator": "Sahih Al-Bukhari"
+        }
+       ],
+       "children": [
+        {
+         "id": "jinn-power",
+         "title": "Pouvoir sur les djinns",
+         "description": "Sulayman commandait les djinns, qui construisaient pour lui des palais et des temples, et parlait aux animaux par la grâce d’Allah.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "فَسَخَّرْنَا لَهُ الرِّيحَ تَجْرِي بِأَمْرِهِ ۖ وَالشَّيَاطِينَ كُلَّ بَنَّاءٍ وَغَوَّاصٍ",
+           "fr": "Nous lui soumîmes le vent qui soufflait sur son ordre, ainsi que les démons, chaque bâtisseur et plongeur.",
+           "surah": "Sad",
+           "ayah": "36-37"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ayoub",
+       "title": "Ayoub (Job)",
+       "description": "Prophète connu pour sa patience face aux épreuves. Il perdit sa santé, sa richesse et sa famille, mais resta ferme dans sa foi, et Allah le rétablit.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+         "fr": "Et Ayoub, lorsqu’il invoqua son Seigneur : « Le mal m’a touché, et Tu es le plus Miséricordieux des miséricordieux. »",
+         "surah": "Al-Anbiya",
+         "ayah": "83"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَنَسٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: إِنَّ أَيُّوبَ كَانَ أَشَدَّ النَّاسِ بَلَاءً وَأَصْبَرَهُمْ",
+         "fr": "D’après Anas (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Ayoub fut celui qui subit les plus grandes épreuves parmi les hommes, et il fut le plus patient d’entre eux. »",
+         "narrator": "Sahih Muslim"
+        }
+       ],
+       "children": [
+        {
+         "id": "ayoub-trials",
+         "title": "Épreuves d’Ayoub",
+         "description": "Ayoub perdit sa famille, sa santé et ses biens, mais invoqua Allah avec patience, et Allah lui rendit tout en double.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "فَاسْتَجَبْنَا لَهُ فَكَشَفْنَا مَا بِهِ مِنْ ضُرٍّ ۖ وَآتَيْنَاهُ أَهْلَهُ وَمِثْلَهُمْ مَعَهُمْ",
+           "fr": "Nous exauçâmes son appel, écartâmes le mal qui l’atteignait, et lui rendîmes sa famille ainsi qu’autant avec eux.",
+           "surah": "Al-Anbiya",
+           "ayah": "84"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "yunus",
+       "title": "Yunus (Jonas)",
+       "description": "Prophète connu pour son séjour dans le ventre du poisson après avoir quitté son peuple. Il invoqua Allah dans les ténèbres et fut sauvé par Sa miséricorde.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "وَذَا النُّونِ إِذْ ذَهَبَ مُغَاضِبًا فَظَنَّ أَنْ لَنْ نَقْدِرَ عَلَيْهِ فَنَادَىٰ فِي الظُّلُمَاتِ أَنْ لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+         "fr": "Et Dhu’n-Nun (Yunus), lorsqu’il partit irrité et pensa que Nous n’aurions pas pouvoir sur lui, puis il invoqua dans les ténèbres : « Il n’y a de divinité que Toi, gloire à Toi, j’ai été parmi les injustes. »",
+         "surah": "Al-Anbiya",
+         "ayah": "87"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ سَعْدِ بْنِ أَبِي وَقَّاصٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: دَعْوَةُ ذِي النُّونِ فِي بَطْنِ الْحُوتِ لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ، مَا دَعَا بِهَا مُسْلِمٌ فِي شَيْءٍ إِلَّا اسْتَجَابَ اللَّهُ لَهُ",
+         "fr": "D’après Sa’d ibn Abi Waqqas (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « L’invocation de Dhu’n-Nun dans le ventre du poisson : ‘Il n’y a de divinité que Toi, gloire à Toi, j’ai été parmi les injustes’, aucun musulman ne l’invoque pour une chose sans qu’Allah ne l’exauce. »",
+         "narrator": "Sunan At-Tirmidhi"
+        }
+       ],
+       "children": [
+        {
+         "id": "yunus-repentance",
+         "title": "Repentance de Yunus",
+         "description": "Yunus invoqua Allah depuis le ventre du poisson, se repentit, et fut sauvé, démontrant la miséricorde divine envers les repentants.",
+         "imageUrl": "images/"
+        }
+       ]
+      },
+      {
+       "id": "zakariya",
+       "title": "Zakariya (Zacharie)",
+       "description": "Prophète et père de Yahya, connu pour sa dévotion et sa prière pour une descendance malgré son âge avancé. Allah exauça son invocation.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+         "fr": "Seigneur, ne me laisse pas seul, alors que Tu es le meilleur des héritiers.",
+         "surah": "Al-Anbiya",
+         "ayah": "89"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: زَكَرِيَّا كَانَ نَجَّارًا",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Zakariya était charpentier. »",
+         "narrator": "Sahih Muslim"
+        }
+       ]
+      },
+      {
+       "id": "yahya",
+       "title": "Yahya (Jean-Baptiste)",
+       "description": "Fils de Zakariya, prophète connu pour sa piété et sa prédication. Il fut un signe miraculeux pour ses parents et un modèle de droiture.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "يَا يَحْيَىٰ خُذِ الْكِتَابَ بِقُوَّةٍ ۖ وَآتَيْنَاهُ الْحُكْمَ صَبِيًّا",
+         "fr": "Ô Yahya, prends le Livre avec force ! Et Nous lui donnâmes la sagesse alors qu’il était encore enfant.",
+         "surah": "Maryam",
+         "ayah": "12"
+        }
+       ]
+      },
+      {
+       "id": "isa",
+       "title": "Isa (Jésus)",
+       "description": "Prophète et Messie, né miraculeusement de Maryam (Marie) par la parole d’Allah. Il accomplit des miracles et reviendra avant la fin des temps.",
+       "imageUrl": "images/",
+       "quranVerses": [
+        {
+         "ar": "إِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ",
+         "fr": "Lorsque les anges dirent : « Ô Maryam, Allah t’annonce une bonne nouvelle d’une Parole de Sa part, son nom est le Messie, Isa, fils de Maryam. »",
+         "surah": "Al-Imran",
+         "ayah": "45"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: أَنَا أَوَّلُ مَنْ يُصَافِحُ عِيسَى ابْنَ مَرْيَمَ يَوْمَ الْقِيَامَةِ",
+         "fr": "D’après Abu Hurayra (qu’Allah l’agrée), le Messager d’Allah (ﷺ) a dit : « Je serai le premier à serrer la main de Isa, fils de Maryam, le Jour de la Résurrection. »",
+         "narrator": "Sahih Muslim"
+        }
+       ],
+       "children": [
+        {
+         "id": "healing-miracles",
+         "title": "Miracles de guérison",
+         "description": "Isa guérissait les aveugles et les lépreux, et ressuscitait les morts par la permission d’Allah pour prouver sa mission prophétique.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَىٰ بِإِذْنِ اللَّهِ",
+           "fr": "Et je guéris l’aveugle-né et le lépreux, et je ressuscite les morts, par la permission d’Allah.",
+           "surah": "Al-Imran",
+           "ayah": "49"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mohamed",
+       "title": "Mohamed ﷺ",
+       "description": "Dernier Prophète et Messager d’Allah, sceau des Prophètes. Il reçut le Coran sur 23 ans, guida l’humanité vers la voie droite, et fut une miséricorde pour les mondes.",
+       "imageUrl": "images/mecque4.jpeg",
+       "quranVerses": [
+        {
+         "ar": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ",
+         "fr": "Et Nous ne t’avons envoyé que comme une miséricorde pour les mondes.",
+         "surah": "Al-Anbiya",
+         "ayah": "107"
+        },
+        {
+         "ar": "لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+         "fr": "Vous avez certes dans le Messager d’Allah un bel exemple.",
+         "surah": "Al-Ahzab",
+         "ayah": "21"
+        }
+       ],
+       "hadiths": [
+        {
+         "ar": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: كَانَ خُلُقُهُ الْقُرْآنَ",
+         "fr": "D’après Aïcha (qu’Allah l’agrée), elle dit : « Son caractère était le Coran. »",
+         "narrator": "Sahih Muslim"
+        }
+       ],
+       "children": [
+        {
+         "id": "birth-childhood",
+         "title": "Naissance et Enfance",
+         "description": "Né en 570 ou 571 après J.-C. à La Mecque, orphelin de père et de mère, élevé par son grand-père et son oncle. Il était connu sous le nom d’Al-Amin (le digne de confiance).",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "prophethood",
+         "title": "Prophétie",
+         "description": "Reçut sa première révélation à 40 ans dans la grotte de Hira via Jibril. Sa mission prophétique dura 23 ans, transformant la société arabe.",
+         "imageUrl": "images/",
+         "quranVerses": [
+          {
+           "ar": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+           "fr": "Lis, au nom de ton Seigneur qui a créé.",
+           "surah": "Al-Alaq",
+           "ayah": "1"
+          }
+         ]
+        },
+        {
+         "id": "hijra",
+         "title": "Hégire (Migration)",
+         "description": "En 622 après J.-C., il migra de La Mecque à Médine avec ses compagnons, marquant le début du calendrier islamique.",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "mecca-conquest",
+         "title": "Conquête de La Mecque",
+         "description": "En 630 après J.-C., il conquit La Mecque sans effusion de sang, pardonna à ses ennemis et purifia la Kaaba des idoles.",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "death",
+         "title": "Mort",
+         "description": "Décédé en 632 après J.-C. à Médine à 63 ans, il fut enterré dans la mosquée du Prophète, laissant le Coran et la Sounnah comme guides.",
+         "imageUrl": "images/"
+        },
+        {
+         "id": "last-sermon-arabic",
+         "title": "Le Sermon d’Adieu (Arabe)",
+         "description": "Discours final prophétique prononcé lors du Hajj d’adieu à Arafat, appelant à l’unité, la justice et l’égalité.",
+         "arabicText": "أيها الناس اسمعوا منّي أُبَيِّن لكم فإني لا أدري لعلّي لا ألقاكم بعد عامي هذا في موقفي هذا.\nأيّها الناس إن دماءكم وأموالكم حرامٌ عليكم إلى أن تلقَوا ربَّكم، كحُرمة يومكم هذا في شهركم هذا في بلدكم هذا، ألا هل بلغت؟ اللهمّ فاشهد، فمن كانت عنده أمانة فليؤدّها إلى من ائتمنه عليها.\nإن ربا الجاهلية موضوع، وإنَّ أول رباً أبدأ به ربا عمي العباس بن عبد المطلب، وإن دماءَ الجاهلية موضوعة وأوَّلُ دم أبدأ به دم عامر بن ربيعة بن الحارث، وإن مآثر الجاهلية موضوعة غير السدانة والسقاية، والعَمْد قَوَدٌ، وَشِبْهُ العَمْد ما قُتِل بالعصا والحجر وفيه مائة بعير، فمن زاد فهو من أهل الجاهلية.\nأيها الناس إن الشيطان قد يئس أن يُعبد في أرضكم هذه، ولكنه قد رضي أن يُطاع فيما سوى ذلك مما تحقرِون من أعمالكم.\nأيها الناس إن النسيء زيادة في الكفر يُضَلُّ به الذين كفروا يحلّونه عاماً، ويحرمونه عاماً، ليواطئوا عدة ما حرّم الله، وإن الزمان قد استدار كهيئته يوم خلق الله السموات والأرض، وإن عِدَّةَ الشهور عند الله اثنا عشر شهراً في كتاب الله يوم خلق الله السموات والأرض، منها أربعة حُرُمٌ، ثلاث متواليات وواحد فرد: ذو القعدة وذو الحجة والمحرم، ورجب الذي بين جُمادى وشعبان، ألا هل بلغت؟ اللهمّ اشهد.\nأيُها الناس إن لنسائكم عليكم حقاً ولكم عليهنّ حقٌّ ألا يوطئن فرشَكُم غيركم، ولا يُدخلنَ أحداً تكرهونه بيوتَكم إلا بإذنكم، ولا يأتين بفاحشة، فإن فعلن، فإن الله أذن لكم أن تَعْضُلُوهُنَّ، وتهجروهُنَّ في المضاجع، وتضربوهنّ ضرباً غير مُبَرِّح، فإن انتهين وأطعنكم فعليكم رزقهنّ وكسوتهنّ بالمعروف، وإنما النساء عندكم عَوَان، لا يملكن لأنفسهنّ شيئاً، أخذتموهنّ بأمانة الله، واستحللتم فروجهنّ بكلمة الله، فاتقوا الله في النساء، واستوصوا بهنّ خيراً، ألا هل بلغت؟ اللهمّ اشهد.\nأيّها الناس إنما المؤمنون إخوة، ولا يَحِلُّ لامرىء مال أخيه إلا عن طيب نفس منه، ألا هل بلّغت؟ اللهمّ اشهد، فلا تَرْجِعُنَّ بعدي كُفَّاراً يضرب بعضكم رقابَ بعضٍ، فإني قد تركت فيكم ما إن أخذتم به لم تضِلوا بعده: كتاب الله، ألا هل بلغت؟ اللهمّ اشهد.\nأيها الناس إن ربكم واحد، وإنَّ أباكم واحد، كلكم لآدم وآدم من تراب، أكرمكم عند الله أتقاكم، ليس لعربي فضلٌ على عجمي إلا بالتقوى. ألا هل بلغت؟ اللهمّ اشهد، فليبلغ الشاهدُ منكم الغائب.\nأيُّها الناس إن الله قد قسم لكل وارث نصيبه من الميراث، ولا تجوز لوارثٍ وصية، ولا تجوز وصية في أكثر من الثلث، والولد للفراش، وللعاهر الحَجَرُ، من ادّعى إلى غير أبيه أو تولى غير مواليه فعليه لعنة الله والملائكة والناس أجمعين، لا يقبل منه صرف ولا عدل، والسلام عليكم ورحمة الله»[1] وفي هذا اليوم امتنَّ الله على المؤمنين بقوله: (الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ الأسْلاَمَ دِيناً)[2]. فلا غرابة أن اتخذه المسلمون عيداً، ويوماً سعيداً، يُظهرون فيه شكر الله على هذه النعمة الكبرى. ثم إنه عليه الصلاة والسلام أدَّى مناسك الحج من رمي الجمار، والنحر، والحلق، والطواف. وبعد أن أقام بمكة عشرة أيام قَفَلَ إلى المدينة ولما رآها كبَّر ثلاثاً وقال: «لا إله إلاّ الله وحده لا شريك له، له المُلْك وله الحمد وهو على كل شيء قدير، آيبون، تائبون، عابدون، ساجدون، لربنا حامدون، صدق الله وعده، ونصر عبده، وهزم الأحزاب وحده",
+         "imageUrl": "images/sermon-arabic.jpg"
+        },
+        {
+         "id": "last-sermon-fr",
+         "title": "Le Sermon d’Adieu (Français)",
+         "description": "Après avoir loué et remercié Dieu, le Prophète (que la paix et les bénédictions de Dieu soient sur lui) a déclaré : « Ô peuple! Écoutez-moi attentivement, car je ne sais pas si, après cette année-ci, je serai encore parmi vous. Écoutez, donc, ce que je vous dis avec beaucoup d’attention et transmettez ce message à ceux qui ne pouvaient être présents parmi nous aujourd’hui. « Ô peuple! Tout comme vous considérez ce mois, ce jour, cette cité comme sacrés, considérez aussi la vie et les biens de chaque musulman comme sacrés. Retournez à leurs légitimes propriétaires les biens qui vous ont été confiés. Ne blessez personne afin que personne ne puisse vous blesser. Souvenez-vous qu’en vérité, vous rencontrerez votre Seigneur et qu’effectivement, Il vous demandera compte de vos actes. Dieu vous a défendu de pratiquer l’usure (de prendre ou payer de l’intérêt), donc tout intérêt non-payé sera maintenant annulé. Votre capital, cependant, vous revient. Vous n’infligerez ni d’endurerez aucune injustice. Dieu a décidé de rendre l’intérêt illicite, et tout intérêt qui était dû à Abbas ibn Abd’al Mouttalib sera maintenant annulé. « Méfiez-vous de Satan, pour le salut de votre religion. Il a perdu tout espoir de ne pouvoir jamais vous amener à commettre les grands péchés; attention, donc, à ne pas le suivre dans les péchés mineurs. « Ô peuple! Il est vrai que vous avez certains droits à l’égard de vos femmes, mais elles aussi ont des droits sur vous. Souvenez-vous que c’est par la permission de Dieu que vous les avez prises pour épouses et que c’est Dieu qui vous les a confiées. Si elles respectent vos droits, alors à elles appartient le droit d’être nourries et habillées convenablement. Traitez donc bien vos femmes et soyez gentils envers elles, car elles sont vos partenaires et elles sont dévouées envers vous. Il est de votre droit qu’elles ne se lient pas d’amitié avec des gens que vous n’approuvez pas, et qu’elles ne commettent jamais l’adultère. « Ô peuple! Écoutez-moi bien : adorez Dieu, faites vos cinq prières quotidiennes, jeûnez pendant le mois de Ramadan, et donnez votre richesse en zakat. Accomplissez le Hajj si vous en avez les moyens. Toute l’humanité descend d’Adam et Eve. Un Arabe n’est point supérieur à un non-Arabe, et un non-Arabe n’est point supérieur à un Arabe, et les Blancs ne sont point supérieurs aux Noirs, de même que les Noirs ne sont point supérieurs aux Blancs. Aucune personne n’est supérieure à une autre, si ce n’est en piété et en bonnes actions. Vous savez que chaque musulman est le frère de tous les autres musulmans. Vous êtes tous égaux. Vous n’avez aucun droit sur les biens appartenant à l’un de vos frères, à moins qu’on ne vous ait fait un don librement et de plein gré. Par conséquent, ne soyez pas injustes les uns envers les autres. « Souvenez-vous, un jour vous vous présenterez devant Dieu et répondrez de vos actes. Prenez garde, donc, ne vous écartez pas du droit chemin après ma mort. Ô peuple! Aucun prophète ni messager ne viendra après moi, et aucune nouvelle religion ne naîtra. » << Raisonnez bien, ô peuple, et comprenez bien les mots que je vous transmets. Je laisse derrière moi deux choses : le Coran et mon exemple, la Sounnah. Et si vous les suivez, jamais vous ne vous égarerez. « Que tous ceux qui m’écoutent transmettent ce message à d’autres, et ceux-là à d’autres encore, et que les derniers puissent le comprendre mieux que ceux qui m’écoutent directement. Sois témoin, ô Dieu, que j’ai transmis Ton message à Tes serviteurs. » C’est ainsi que le Prophète termina son dernier sermon et, alors qu’il se tenait près du sommet de Arafat, le verset suivant lui fut révélé : «... Aujourd’hui, J’ai parfait votre religion pour vous et J’ai accompli Mon bienfait sur vous. Et J’ai choisi l’islam comme religion pour vous. » (Coran 5:3).",
+         "imageUrl": "images/sermon-fr.jpg"
+        },
+        {
+         "id": "family",
+         "title": "Famille",
+         "description": "Descendance et relations familiales du Prophète Muhammad ﷺ, qui ont joué un rôle clé dans la transmission de son message.",
+         "children": [
+          {
+           "id": "khadija",
+           "title": "Khadija (رضي الله عنها)",
+           "description": "Première épouse du Prophète, soutien majeur dans les débuts de l’islam. Elle fut la première croyante et la mère de ses enfants.",
+           "hadiths": [
+            {
+             "ar": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: مَا غِرْتُ عَلَى أَحَدٍ مِنْ نِسَاءِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا غِرْتُ عَلَى خَدِيجَةَ، وَمَا رَأَيْتُهَا، وَلَكِنْ كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُكْثِرُ ذِكْرَهَا، وَرُبَّمَا ذَبَحَ الشَّاةَ، ثُمَّ يُقَطِّعُهَا أَجْزَاءً، ثُمَّ يَبْعَثُهَا فِي صَدَائِقِ خَدِيجَةَ. فَرُبَّمَا قُلْتُ لَهُ: كَأَنَّهُ لَمْ يَكُنْ فِي الدُّنْيَا إِلَّا خَدِيجَةُ، فَيَقُولُ: إِنَّهَا كَانَتْ وَكَانَتْ، وَكَانَ مِنْهَا وَلَدِي",
+             "fr": "D’après Aïcha (qu’Allah l’agrée), elle dit : « Je n’ai jamais été aussi jalouse d’une des femmes du Prophète (صلى الله عليه وسلم) que je l’ai été de Khadija, bien que je ne l’aie jamais vue. Mais le Prophète (صلى الله عليه وسلم) la mentionnait souvent, et parfois il égorgeait une brebis, la découpait en morceaux et l’envoyait aux amies de Khadija. Je lui disais parfois : ‘On dirait qu’il n’y avait que Khadija dans le monde !’ Et il répondait : ‘Elle était ceci, elle était cela, et j’ai eu des enfants d’elle.’ »",
+             "narrator": "Al-Bukhari (n° 3818)"
+            },
+            {
+             "ar": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: آمَنَتْنِي خَدِيجَةُ حِينَ كَذَّبَنِي النَّاسُ، وَآزَرَتْنِي بِمَالِهَا حِينَ حَرَمَنِي النَّاسُ، وَرَزَقَنِي اللَّهُ مِنْهَا أَوْلَادًا",
+             "fr": "Le Prophète (صلى الله عليه وسلم) disait : « Khadija m’a cru lorsque personne ne me croyait, elle a partagé son bien avec moi lorsque tous se sont détournés de moi, et Allah m’a donné des enfants d’elle. »",
+             "narrator": "Al-Bukhari"
+            }
+           ],
+           "quranVerses": [
+            {
+             "ar": "وَالَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+             "fr": "Et quant à ceux qui disent : ‘Nos seigneurs ! Donne-nous, de nos épouses et de nos descendants, une joie pour les yeux, et fais de nous des guides pour les pieux.’",
+             "surah": "Al-Furqan",
+             "ayah": "74"
+            }
+           ],
+           "imageUrl": ""
+          },
+          {
+           "id": "fatima",
+           "title": "Fatima (رضي الله عنها)",
+           "description": "Fille bien-aimée du Prophète, mère de Hassan et Hussein, lignée de la descendance prophétique.",
+           "hadiths": [
+            {
+             "ar": "عَنِ الْمِسْوَرِ بْنِ مَخْرَمَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: فَاطِمَةُ بَضْعَةٌ مِنِّي، فَمَنْ أَغْضَبَهَا أَغْضَبَنِي",
+             "fr": "D’après Al-Miswar ibn Makhramah (qu’Allah l’agrée), le Messager d’Allah (صلى الله عليه وسلم) a dit : « Fatima est une partie de moi. Celui qui la met en colère me met en colère. »",
+             "narrator": "Muslim (n° 2486)"
+            }
+           ],
+           "quranVerses": [
+            {
+             "ar": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَأَخْبَتُوا إِلَىٰ رَبِّهِمْ أُولَٰئِكَ أَصْحَابُ الْجَنَّةِ ۖ هُمْ فِيهَا خَالِدُونَ",
+             "fr": "Certes, ceux qui ont cru, accompli les bonnes œuvres et se sont soumis à leur Seigneur, ceux-là sont les gens du Paradis ; ils y demeureront éternellement.",
+             "surah": "Hud",
+             "ayah": "23"
+            }
+           ],
+           "imageUrl": ""
+          }
+         ]
+        },
+        {
+         "id": "miracles",
+         "title": "Miracles",
+         "description": "Signes divins manifestés par le Prophète Muhammad ﷺ pour confirmer sa mission.",
+         "children": [
+          {
+           "id": "split-moon",
+           "title": "Scission de la Lune",
+           "description": "Miracle coranique confirmé par des témoins, prouvant sa prophétie.",
+           "imageUrl": "images/moon-split.jpg",
+           "quranReference": "54:1-2"
+          },
+          {
+           "id": "isra-miraj",
+           "title": "Isra & Mi'raj : Le Voyage Céleste Prophétique",
+           "description": "Voyage nocturne de La Mecque à Jérusalem, suivi de l’ascension aux cieux en 621 CE, établissant les cinq prières, Expérience spirituelle fondamentale en Islam combinant voyage terrestre et ascension cosmique",
+           "imageUrl": "images/miraj-timeline.fr.svg",
+           "quranVerses": [
+            {
+             "ar": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِنَ الْمَسْجِدِ الْحَرَامِ إِلَىٰ الْمَسْجِدِ الْأَقْصَى",
+             "fr": "Gloire à Celui qui fit voyager Son serviteur de nuit, de la Mosquée sacrée à la Mosquée lointaine.",
+             "surah": "Al-Isra",
+             "ayah": "1"
+            }
+           ],
+           "narrative": {
+            "chronology": [
+             {
+              "stage": 1,
+              "title": "Purification Préalable",
+              "content": "Nettoyage physique et spirituel du Prophète ﷺ par l'archange Jibril (Gabriel)"
+             },
+             {
+              "stage": 2,
+              "title": "Monture Al-Bouraq",
+              "content": "Créature céleste 'plus rapide que la lumière' reliant La Mecque à Jérusalem (1,500 km en une fraction de nuit)"
+             },
+             {
+              "stage": 3,
+              "title": "Station Terrestre : Al-Aqsa",
+              "content": "Prière avec tous les prophètes antérieurs, établissant la continuité du message divin"
+             },
+             {
+              "stage": 4,
+              "title": "Ascension des 7 Cieux",
+              "content": "Rencontre successive avec :\n1. Adam (Ciel 1)\n2. Jésus et Jean-Baptiste (Ciel 2)\n3. Joseph (Ciel 3)\n4. Idris (Ciel 4)\n5. Aaron (Ciel 5)\n6. Moïse (Ciel 6)\n7. Abraham (Ciel 7)"
+             },
+             {
+              "stage": 5,
+              "title": "Sidrat al-Muntaha",
+              "content": "Limite ultime de la connaissance créée, seuil du Divin (Coran 53:14-18)"
+             }
+            ]
+           },
+           "theologicalDimensions": {
+            "cosmology": "Validation de la structure cosmique islamique (mondes visibles/invisibles)",
+            "prophetology": "Confirmation de la chaîne prophétique abrahamique",
+            "ritualImpact": "Institution des 5 prières quotidiennes (Salat) après négociation avec Moïse"
+           },
+           "symbolicAnalysis": [
+            {
+             "element": "Voyage Nocturne",
+             "interpretation": "Allégorie du cheminement spirituel du croyant (de l’obscurité à la Lumière)"
+            },
+            {
+             "element": "7 Cieux",
+             "interpretation": "Représentation des étapes de purification de l’âme (concept du tazkiyah)"
+            }
+           ],
+           "educationalResources": {
+            "quranicReferences": [
+             {
+              "ar": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَىٰ الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا ۚ إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ",
+              "fr": "Gloire à Celui qui fit voyager Son serviteur de nuit, de la Mosquée sacrée à la Mosquée la plus éloignée dont Nous avons béni les alentours, afin de lui montrer certains de Nos signes. En vérité, Il est l’Audient, le Voyant.",
+              "surah": "Al-Isra",
+              "ayah": "1"
+             },
+             {
+              "ar": "وَالنَّجْمِ إِذَا هَوَىٰ ۝ مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ ۝ وَمَا يَنطِقُ عَنِ الْهَوَىٰ ۝ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ ۝ عَلَّمَهُ شَدِيدُ الْقُوَىٰ ۝ ذُو مِرَّةٍ فَاسْتَوَىٰ ۝ وَهُوَ بِالْأُفُقِ الْأَعْلَىٰ ۝ ثُمَّ دَنَا فَتَدَلَّىٰ ۝ فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ ۝ فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ ۝ مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ ۝ أَفَتُمَارُونَهُ عَلَىٰ مَا يَرَىٰ",
+              "fr": "Par l’étoile lorsqu’elle disparaît ! Votre compagnon ne s’est pas égaré et n’a pas dévié. Il ne parle pas sous l’effet de la passion. Ce n’est rien d’autre qu’une révélation qui lui est révélée, enseignée par un être d’une force immense, doué de puissance, qui s’est tenu droit, alors qu’il était à l’horizon suprême. Puis il s’approcha et descendit, jusqu’à être à la distance de deux arcs, ou plus près encore. Alors, Il révéla à Son serviteur ce qu’Il révéla. Le cœur n’a pas menti sur ce qu’il a vu. Allez-vous donc lui disputer ce qu’il voit ?",
+              "surah": "An-Najm",
+              "ayah": "1-12"
+             },
+             {
+              "note": "Sourate An-Najm (53:13-18) complète la description avec la vision du Sidrat al-Muntaha : 'Et il Le vit encore une autre fois, près du Lotus de la Limite, auprès duquel se trouve le Jardin de la Demeure...'"
+             }
+            ],
+            "hadithScience": [
+             "Sahih al-Bukhari 349 : Récit détaillé d’après Malik ibn Sa'sa'a",
+             "Sahih Muslim 234 : Version d’Abu Dharr al-Ghifari"
+            ],
+            "academicPerspectives": [
+             "Analyse astrophysique du voyage (Esin, 1963)",
+             "Étude comparée avec l’ascension de Moïse (Exode 24:9-18)"
+            ]
+           },
+           "interfaithConnections": {
+            "judaism": "Lien avec le Temple de Jérusalem (Bayt al-Maqdis)",
+            "christianity": "Parallèles avec l’Ascension de Jésus",
+            "universalSymbols": "Arbre cosmique présent dans les traditions zoroastrienne et hindoue"
+           },
+           "criticalThinking": [
+            "Pourquoi ce miracle fut-il d’abord accueilli avec scepticisme à La Mecque ?",
+            "Comment concilier dimension physique et spirituelle du voyage ?"
+           ],
+           "visualAids": {
+            "timelineUrl": "images/miraj-timeline.fr.svg",
+            "celestialMap": "maps/7-heavens-annotated.jpg"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
