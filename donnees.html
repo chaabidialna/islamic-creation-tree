@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbre de la Création Islamique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Styles de base (comme avant, mais avec des ajustements) */
+
+        .tree ul {
+            padding-top: 20px; position: relative;
+            transition: all 0.5s;
+        }
+        .tree li {
+            float: left; text-align: center;
+            list-style-type: none;
+            position: relative;
+            padding: 20px 5px 0 5px;
+            transition: all 0.5s;
+        }
+        /* Connecteurs (comme avant) */
+        .tree li::before, .tree li::after {
+            content: ''; position: absolute; top: 0; right: 50%;
+            border-top: 1px solid #ccc; width: 50%; height: 20px;
+        }
+        .tree li::after { right: auto; left: 50%; border-left: 1px solid #ccc; }
+        .tree li:only-child::after, .tree li:only-child::before { display: none; }
+        .tree li:first-child::before, .tree li:last-child::after { border: 0 none; }
+        .tree li:last-child::before { border-right: 1px solid #ccc; border-radius: 0 5px 0 0; }
+        .tree li:first-child::after { border-radius: 5px 0 0 0; }
+        .tree ul ul::before{ content: ''; position: absolute; top: 0; left: 50%; border-left: 1px solid #ccc; width: 0; height: 20px; }
+
+        .tree li a {
+            /* Styles de base des liens (noeuds) */
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #333; /* Couleur du texte */
+            font-family: Arial, sans-serif;
+            font-size: 14px; /* Taille de police légèrement plus grande */
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transitions plus douces */
+            cursor: pointer;
+            background-color: #f0f0f0; /* Couleur de fond */
+        }
+
+        .tree li a:hover,
+        .tree li a:focus {
+            background-color: #e0e0e0; /* Couleur de fond au survol */
+            color: #000; /* Couleur du texte au survol */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre légère au survol */
+        }
+
+        /* Styles pour les noeuds avec enfants (toggle) */
+        .tree li a.toggle {
+            background-color: #d4edda; /* Couleur de fond différente */
+            border-color: #c3e6cb;
+            color: #155724;
+            font-weight: bold; /* Texte en gras */
+        }
+
+        .tree li a.toggle:hover,
+        .tree li a.toggle:focus {
+            background-color: #c3e6cb; /* Couleur de fond au survol */
+            color: #155724;
+        }
+        .tree li a.toggle.open{
+          background-color:#3490dc;
+          color: white;
+        }
+        /* Styles pour les icônes */
+        .tree li a i {
+            margin-left: 5px; /* Espace entre le texte et l'icône */
+            transition: transform 0.3s; /* Animation de rotation */
+        }
+
+        .tree li a.toggle.open i {
+            transform: rotate(90deg); /* Rotation de l'icône quand ouvert */
+        }
+
+        /* Masquer les enfants par défaut */
+        .tree li > ul {
+            display: none;
+        }
+      .tree li > ul.open{
+        display: block;
+      }
+
+        /* Styles pour les tooltips (comme avant) */
+       .tooltip {
+            position: absolute;
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none; /* Caché par défaut */
+            z-index: 1000; /* Au-dessus de tout */
+            white-space: nowrap; /* Empêche le retour à la ligne */
+           left: 50%;
+           transform: translateX(-50%);
+        }
+
+        .tree li a:hover + .tooltip,
+        .tree li a:focus + .tooltip {
+            display: block;
+        }
+      /* Styles pour le modal (comme avant, mais ajusté) */
+
+        .modal {
+            display: none; /* Caché par défaut */
+            position: fixed; /* Reste en place lors du défilement */
+            z-index: 1000;  /* Au-dessus de tout le reste */
+            left: 0;
+            top: 0;
+            width: 100%;    /* Pleine largeur */
+            height: 100%;   /* Pleine hauteur */
+            overflow: auto; /* Ajoute des barres de défilement si nécessaire */
+            background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% du haut, centré horizontalement */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;    /* 80% de la largeur de la fenêtre */
+            max-width: 600px; /* Largeur maximale */
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+            position: relative; /* Nécessaire pour le bouton de fermeture */
+        }
+
+        .close {
+            color: #aaa;
+            position: absolute; /* Position absolue par rapport à .modal-content */
+            top: 10px;
+            right: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+      .close:hover, .close:focus {color: black;text-decoration: none; cursor: pointer;}
+    </style>
+</head>
+<body class="bg-white-600">
+   <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-6">Arbre de la Création Islamique</h1>
+
+        <button id="asma-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">
+            Afficher les 99 Noms d'Allah
+        </button>
+
+        <!-- Modal pour les 99 Noms (comme avant)-->
+        <div id="asma-modal" class="modal">
+          <div class="modal-content">
+            <span class="close">×</span>
+            <h2 class="text-2xl font-bold mb-4">Les 99 Noms d'Allah (Asma al-Husna)</h2>
+            <div id="asma-list">
+            </div>
+          </div>
+        </div>
+
+        <div class="tree">
+            <ul id="tree-root">
+            </ul>
+        </div>
+    </div>
+<script>
+    const basePath = "data/"; // Chemin de base vers le dossier data
+
+    // Fonction asynchrone pour charger un fichier JSON
+    async function fetchData(filePath) {
+        const fullPath = basePath + filePath; // Construction du chemin complet
+        const response = await fetch(fullPath);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}, path: ${fullPath}`); // Message d'erreur détaillé
+        }
+        return await response.json();
+    }
+
+  // Fonction pour afficher les détails d'un nœud dans le modal
+function showNodeDetails(nodeData) {
+    const modal = document.getElementById("asma-modal");
+    const modalContent = modal.querySelector(".modal-content");
+
+    //  1.  NE PAS VIDER le modal ici.  On le gère différemment.
+    // modalContent.innerHTML = '';  <--  SUPPRIMER CETTE LIGNE
+
+    //  2.  Créer le bouton de fermeture *à chaque fois*.
+    const closeBtn = document.createElement('span');
+    closeBtn.classList.add('close');
+    closeBtn.innerHTML = '×';
+    closeBtn.onclick = () => {
+        modal.style.display = 'none';
+    };
+
+    //  3.  Vider *seulement* les éléments précédents *autres* que le bouton de fermeture.
+    //     On itère à l'envers pour éviter des problèmes avec la suppression en cours d'itération.
+    for (let i = modalContent.children.length - 1; i >= 0; i--) {
+        if (modalContent.children[i] !== closeBtn) { // <--  Important: Ne pas supprimer closeBtn
+            modalContent.removeChild(modalContent.children[i]);
+        }
+    }
+    modalContent.appendChild(closeBtn); // <-- Important: Ajouter closeBtn *après* avoir nettoyé.
+
+    const detailsDiv = document.createElement('div');
+    detailsDiv.classList.add('bg-white', 'p-4', 'rounded', 'shadow', 'mt-2', 'text-sm');
+
+    const title = document.createElement('h3');
+    title.classList.add('text-lg', 'font-bold', 'mb-2');
+    title.textContent = nodeData.title;
+    detailsDiv.appendChild(title);
+
+    if (nodeData.description) {
+        const description = document.createElement('p');
+        description.textContent = nodeData.description;
+        detailsDiv.appendChild(description);
+    }
+
+    if (nodeData.quranVerses && nodeData.quranVerses.length > 0) {
+        const quranVersesTitle = document.createElement('h4');
+        quranVersesTitle.classList.add('font-bold', 'mt-4', 'mb-1');
+        quranVersesTitle.textContent = 'Versets Coraniques:';
+        detailsDiv.appendChild(quranVersesTitle);
+
+        const quranVersesList = document.createElement('ul');
+        nodeData.quranVerses.forEach(verse => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `<strong>${verse.surah} (${verse.ayah}):</strong> <em>${verse.ar}</em> - ${verse.fr}`;
+            quranVersesList.appendChild(listItem);
+        });
+        detailsDiv.appendChild(quranVersesList);
+    }
+
+    if (nodeData.hadiths && nodeData.hadiths.length > 0) {
+        const hadithsTitle = document.createElement('h4');
+        hadithsTitle.classList.add('font-bold', 'mt-4', 'mb-1');
+        hadithsTitle.textContent = 'Hadiths:';
+        detailsDiv.appendChild(hadithsTitle);
+
+        const hadithsList = document.createElement('ul');
+        nodeData.hadiths.forEach(hadith => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `<em>${hadith.ar}</em> - ${hadith.fr} (${hadith.narrator})`;
+            hadithsList.appendChild(listItem);
+        });
+        detailsDiv.appendChild(hadithsList);
+    }
+
+    if (nodeData.arabicText) {
+        const arabicTextTitle = document.createElement('h4');
+        arabicTextTitle.classList.add('font-bold', 'mt-4', 'mb-1');
+        arabicTextTitle.textContent = 'Texte Arabe:';
+        detailsDiv.appendChild(arabicTextTitle);
+
+        const arabicTextPara = document.createElement('p');
+        arabicTextPara.classList.add('text-right', 'font-arabic');
+        arabicTextPara.textContent = nodeData.arabicText;
+        detailsDiv.appendChild(arabicTextPara);
+    }
+
+    if (nodeData.imageUrl) {
+        const image = document.createElement('img');
+        image.src = nodeData.imageUrl;
+        image.alt = nodeData.title;
+        image.classList.add('mt-4', 'max-w-full');
+        detailsDiv.appendChild(image);
+    }
+
+
+    modalContent.appendChild(detailsDiv);
+    modal.style.display = "block";
+}
+
+
+
+    // Fonction récursive pour construire l'arbre (inchangée)
+    function buildTree(nodeData, parentElement) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = nodeData.title;
+        a.href = "#";  // Prevent page jump
+        a.addEventListener('click', (event) => {
+            event.preventDefault(); // Empêche le comportement par défaut du lien
+            showNodeDetails(nodeData); // Affiche les détails du nœud
+        });
+
+        li.appendChild(a);
+
+
+        // Ajoute le tooltip *seulement* si une description est présente
+        if (nodeData.description) {
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('tooltip');
+            tooltip.textContent = nodeData.description;
+            li.appendChild(tooltip); // Ajoute le tooltip comme enfant de <li>
+        }
+
+
+        if (nodeData.children && nodeData.children.length > 0) {
+            a.classList.add('toggle'); // Ajoute la classe 'toggle'
+            const icon = document.createElement('i'); // Crée l'élément icône
+            icon.classList.add('fas', 'fa-chevron-right'); // Classes Font Awesome
+            a.appendChild(icon); // Ajoute l'icône au lien
+
+            const ul = document.createElement('ul');
+            ul.classList.add('hidden'); // Masque les enfants par défaut
+            li.appendChild(ul);
+
+            // Ajoute un gestionnaire d'événements pour ouvrir/fermer
+            a.addEventListener('click', (event) => {
+              event.preventDefault(); // Important: empêche le comportement par défaut ET la propagation
+              event.stopPropagation(); // Empêche l'événement de remonter (important!)
+              ul.classList.toggle('open'); // Ouvre/ferme les enfants
+              a.classList.toggle('open');
+              icon.classList.toggle('rotate');
+              // Plus besoin de rotate, on le gére avec la class open.
+            });
+
+            nodeData.children.forEach(child => {
+                if (child.$ref) {
+                    // Charge les données de l'enfant de manière asynchrone
+                    fetchData(child.$ref)
+                        .then(childData => {
+                            buildTree(childData, ul); // Appel récursif
+                        })
+                        .catch(error => {
+                            console.error("Erreur lors du chargement de", child.$ref, error);
+                            // Affiche un message d'erreur dans l'arbre (optionnel)
+                            const errorLi = document.createElement('li');
+                            errorLi.textContent = `Erreur lors du chargement de ${child.$ref}`;
+                            errorLi.style.color = 'red';
+                            ul.appendChild(errorLi);
+                        });
+                } else {
+                    // Les données de l'enfant sont déjà présentes (pas de $ref)
+                    buildTree(child, ul); // Appel récursif direct
+                }
+            });
+            li.appendChild(ul);
+        }
+        parentElement.appendChild(li);
+    }
+
+    // Point d'entrée : s'exécute après le chargement du DOM
+    document.addEventListener('DOMContentLoaded', () => {
+        const treeRoot = document.getElementById('tree-root');
+
+        fetchData("allah.json")
+            .then(allahData => {
+                buildTree(allahData, treeRoot);
+            })
+            .catch(error => console.error("Erreur de chargement:", error));
+
+        const asmaButton = document.getElementById('asma-button');
+        const asmaModal = document.getElementById('asma-modal');
+        const asmaList = document.getElementById('asma-list');
+        const closeBtn = asmaModal.querySelector('.close'); // <-- Récupérer closeBtn ici.
+
+        asmaButton.onclick = () => {
+            //  1.  Vérifier si les noms sont déjà chargés.
+            if (asmaList.innerHTML === "") {
+                //  2.  Si NON, charger les noms (asynchrone).
+                fetchData("allah.json")
+                    .then(data => {
+                        if (data.asmaAlHusna) {
+                            data.asmaAlHusna.forEach(nom => {
+                                const div = document.createElement('div');
+                                div.classList.add('mb-2');
+                                div.innerHTML = `<span class="font-bold">${nom.ar}</span> - ${nom.fr}`;
+                                asmaList.appendChild(div);
+                            });
+                            //  3.  *APRÈS* avoir ajouté les noms, afficher le modal.
+                            asmaModal.style.display = 'block';
+                        } else {
+                            asmaList.innerHTML = "<p>Erreur: Impossible de charger les 99 noms.</p>";
+                            asmaModal.style.display = 'block'; // Afficher le modal avec l'erreur
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Erreur:", error);
+                        asmaList.innerHTML = "<p>Erreur lors du chargement des données.</p>";
+                        asmaModal.style.display = 'block'; // Afficher le modal avec l'erreur
+                    });
+            } else {
+                //  4.  Si OUI (les noms sont déjà chargés), afficher le modal directement.
+                asmaModal.style.display = 'block';
+            }
+        };
+
+
+        // Fermer le modal (en cliquant sur le bouton 'x')
+        closeBtn.onclick = () => { //  Utiliser closeBtn (récupéré plus haut)
+            asmaModal.style.display = 'none';
+        };
+
+        // Fermer le modal en cliquant en dehors
+        window.onclick = (event) => {
+            if (event.target == asmaModal) {
+                asmaModal.style.display = "none";
+            }
+        };
+    });
+</script>
+</body>
+</html>
